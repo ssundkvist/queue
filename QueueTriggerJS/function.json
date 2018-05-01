@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "test-queue",
+      "connection": "ssttest1_STORAGE"
+    }
+  ],
+  "disabled": false
+}
